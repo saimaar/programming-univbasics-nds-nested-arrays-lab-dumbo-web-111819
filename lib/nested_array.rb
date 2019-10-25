@@ -44,7 +44,22 @@ end
 
 def array_literal_matrix
   
-  
+  the_nested_array =[
+    [
+    "Don Gately",
+    "Joelle van Dyne",
+    "Pat M.",
+    "Kate Gompert",
+    "Bruce Green"
+    ].sort, 
+    [
+    "Hal Incandenza",
+    "Lyle",
+    "Gerhard Schtitt",
+    "Mario Incandenza",
+    "Michael Pemulis"
+    ].sort,
+  ]
   
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
