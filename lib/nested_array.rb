@@ -18,7 +18,7 @@ ENFIELD_TENNIS_ACADEMY = [
 
 def assembled_matrix
   
-  The_nested_array =[
+  the_nested_array =[
     [
     "Don Gately",
     "Joelle van Dyne",
@@ -35,6 +35,7 @@ def assembled_matrix
     ],
   ]
     
+  return the_nested_array
  
 
   # Build an array that contains (or, "nests") the residents of The Ennet House
